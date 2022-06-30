@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">JuniorProjectApplication</string>
+
+    <!-- Title -->
+    <string name="titleLogin">Login</string>
+
+    <!-- Inputs -->
+    <string name="input_username">Username</string>
+    <string name="input_required">Required</string>
+    <string name="input_password">Password</string>
+
+    <!-- Search -->
+    <string name="etSearchByBeerName">Beer name</string>
+
+    <!-- Menu -->
+    <string name="menu_logout">Logout</string>
+
+    <!-- Arguments -->
+    <string name="arg_id">key_id</string>
+    <string name="arg_name">key_name</string>
+    <string name="arg_image">key_image</string>
+
+    <!-- Error messages -->
+    <string name="message_common_error">ha ocurrido un error</string>
+
+    <!-- Details fragment -->
+    <string name="details_id">ID</string>
+    <string name="beer_name">Beer name</string>
+    <string name="details_tagline">Tagline</string>
+    <string name="details_ph">Ph</string>
+    <string name="details_attenuation_level">Attenuation Level</string>
+    <string name="details_abv">Abv</string>
+
+    <!-- Default -->
+    <string name="value_default">Value default</string>
+    <string name="details_description">Description</string>
+    <string name="details_name">Name</string>
+    <string name="arg_tagline">key_tagline</string>
+    <string name="arg_abv">key_abv</string>
+    <string name="arg_ph">key_ph</string>
+    <string name="arg_description">key_description</string>
+    <string name="arg_attenuation_level">key_attenuation_level</string>
+</resources>

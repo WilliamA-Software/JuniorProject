@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="liner_title_details_beer">2</integer>
+    <integer name="liner_tagline_details_beer">4</integer>
+</resources>

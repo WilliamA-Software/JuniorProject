@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="@dimen/common_padding_min"
+        android:focusable="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/common_padding_default">
+
+            <ImageView
+                android:id="@+id/ivBeer"
+                android:layout_width="@dimen/card_img_size"
+                android:layout_height="@dimen/card_img_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@mipmap/ic_launcher"/>
+            
+            <TextView
+                android:id="@+id/tvNameBeer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/beer_name"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:maxLines="@integer/liner_title_details_beer"
+                android:layout_marginStart="@dimen/common_padding_default"
+                app:layout_constraintStart_toEndOf="@+id/ivBeer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ivBeer"
+                app:layout_constraintBottom_toBottomOf="@+id/ivBeer"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
